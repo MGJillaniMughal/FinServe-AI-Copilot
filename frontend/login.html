@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sign in | FinServe AI Copilot &middot; Jillani SofTech</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="fs-login-wrap">
+    <div class="fs-login-art">
+      <div class="d-flex align-items-center gap-2 mb-4"><span class="fs-logo">FS</span><span class="fw-bold fs-5">FinServe <span class="text-accent">AI Copilot</span></span></div>
+      <h1>Financial Risk Intelligence &amp; Compliance Automation.</h1>
+      <p class="mt-3" style="color:rgba(255,255,255,.78);max-width:460px">RAG-powered document intelligence, an AI risk advisor and an automated compliance engine &mdash; in one enterprise workspace.</p>
+      <div class="fs-trust mt-4"><span>RAG Engine</span><span>FastAPI</span><span>JWT Auth</span><span>Vector Search</span><span>LLMOps</span></div>
+      <p class="mt-5 mb-0" style="color:rgba(255,255,255,.6);font-size:.85rem">A Jillani SofTech platform &mdash; built by Muhammad Ghulam Jillani</p>
+    </div>
+    <div class="fs-login-form">
+      <div class="fs-login-card">
+        <h3 class="fw-bold mb-1">Welcome back</h3>
+        <p class="text-muted mb-4">Sign in to your FinServe workspace.</p>
+        <form id="loginForm">
+          <div class="mb-3"><label>Email</label><input type="email" class="form-control" id="email" value="admin@jillanisoftech.com" required /></div>
+          <div class="mb-2"><label>Password</label><input type="password" class="form-control" id="password" value="finserve123" required /></div>
+          <div class="text-danger small mb-3" id="loginError"></div>
+          <button class="btn btn-accent w-100 py-2" id="loginBtn" type="submit">Sign in</button>
+        </form>
+        <div class="alert alert-light border mt-4 mb-0 small">
+          <strong>Demo credentials</strong><br>admin@jillanisoftech.com &nbsp;/&nbsp; finserve123
+        </div>
+        <p class="vendor-mark text-center mt-4 mb-0">&copy; 2026 <a href="https://www.jillanisoftech.com/" target="_blank">Jillani SofTech</a></p>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/api.js"></script>
+  <script src="/assets/js/auth.js"></script>
+</body>
+</html>

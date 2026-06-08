@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FinServe AI Copilot | Jillani SofTech</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fs-navbar fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="/"><span class="fs-logo">FS</span><span class="fw-bold">FinServe <span class="text-accent">AI Copilot</span></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="nav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#architecture">Architecture</a></li>
+          <li class="nav-item"><a class="nav-link" href="#usecases">Use Cases</a></li>
+          <li class="nav-item"><a class="btn btn-accent ms-lg-2" href="/login">Sign in</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="fs-hero">
+    <div class="container"><div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <span class="fs-pill">A Jillani SofTech Platform</span>
+        <h1 class="fs-hero-title">Financial Risk Intelligence &amp; Compliance Automation, powered by AI.</h1>
+        <p class="fs-hero-sub">FinServe AI Copilot ingests financial reports, AML/KYC policies and audit documents, then delivers RAG-powered Q&amp;A, automated compliance reviews and AI risk scoring &mdash; in one enterprise-grade workspace.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4"><a href="/login" class="btn btn-accent btn-lg">Launch Live Dashboard</a><a href="#features" class="btn btn-outline-light btn-lg">Explore Features</a></div>
+        <div class="fs-trust mt-4"><span>RAG Architecture</span><span>FastAPI Backend</span><span>JWT Auth</span><span>Vector Search</span><span>LLMOps</span></div>
+      </div>
+      <div class="col-lg-6"><div class="fs-hero-card">
+        <div class="d-flex justify-content-between align-items-center mb-3"><span class="fw-semibold">Risk Intelligence</span><span class="badge-soft-green">Live</span></div>
+        <div class="d-flex justify-content-center"><div class="fs-ring" style="--pct:71;--col:#d13b3b"><div class="text-center"><div class="num">71</div><div class="sub">/100</div></div></div></div>
+        <p class="text-center text-muted my-3">Portfolio Risk Score &mdash; High</p>
+        <div class="fs-mini-row"><span>AML coverage</span><div class="fs-bar"><i style="width:88%"></i></div></div>
+        <div class="fs-mini-row"><span>KYC coverage</span><div class="fs-bar"><i style="width:74%"></i></div></div>
+        <div class="fs-mini-row"><span>SOC 2 controls</span><div class="fs-bar"><i style="width:62%"></i></div></div>
+      </div></div>
+    </div></div>
+  </header>
+
+  <section id="features" class="fs-section"><div class="container">
+    <div class="text-center mb-5"><h2 class="fs-h2">One platform. Four intelligent engines.</h2><p class="fs-lead">Everything a fintech risk &amp; compliance team needs to work faster.</p></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3"><div class="fs-feature"><div class="fs-ficon">DOC</div><h5>Document Intelligence</h5><p>Ingest PDFs &amp; policies, vector search, summaries and key-risk extraction with citations.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="fs-feature"><div class="fs-ficon">CMP</div><h5>Compliance Engine</h5><p>Score AML, KYC, GDPR &amp; SOC 2 coverage, surface gaps and flag human review.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="fs-feature"><div class="fs-ficon">RSK</div><h5>AI Risk Advisor</h5><p>Score portfolios and reports, expose risk drivers and generate mitigation actions.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="fs-feature"><div class="fs-ficon">CPT</div><h5>Enterprise Copilot</h5><p>Conversational assistant grounded in your documents with source-linked answers.</p></div></div>
+    </div></div></section>
+
+  <section id="architecture" class="fs-section fs-section-alt"><div class="container"><div class="row align-items-center g-5">
+    <div class="col-lg-5"><h2 class="fs-h2">Enterprise RAG architecture</h2><p class="fs-lead">A clean, modular pipeline built for production and observability.</p>
+      <ul class="fs-arch-list"><li>Document loading &amp; chunking</li><li>TF-IDF / embedding vector store</li><li>Similarity search &amp; context retrieval</li><li>Grounded answer generation with citations</li></ul></div>
+    <div class="col-lg-7"><div class="fs-arch-diagram">
+      <div class="fs-node">Upload</div><span>&rarr;</span><div class="fs-node">Chunk</div><span>&rarr;</span><div class="fs-node">Embed</div><span>&rarr;</span><div class="fs-node">Vector Store</div><span>&rarr;</span><div class="fs-node">Retrieve</div><span>&rarr;</span><div class="fs-node accent">LLM Answer</div>
+    </div></div></div></div></section>
+
+  <section id="usecases" class="fs-section"><div class="container">
+    <div class="text-center mb-5"><h2 class="fs-h2">Built for real financial workflows</h2></div>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="fs-case"><h6>Compliance Teams</h6><p>Automate first-pass AML/KYC/GDPR reviews and prioritise documents needing human attention.</p></div></div>
+      <div class="col-md-4"><div class="fs-case"><h6>Risk Teams</h6><p>Score portfolios and transaction summaries, with explainable drivers and mitigation plans.</p></div></div>
+      <div class="col-md-4"><div class="fs-case"><h6>Investment Firms</h6><p>Query research libraries instantly and extract key risks with source citations.</p></div></div>
+    </div></div></section>
+
+  <section class="fs-cta"><div class="container text-center">
+    <h2 class="fs-h2 text-white">See the platform in action</h2><p class="fs-lead text-white-50">Sign in to the live dashboard and explore the full workflow.</p>
+    <a href="/login" class="btn btn-light btn-lg mt-2">Open Dashboard</a></div></section>
+
+  <footer class="fs-footer"><div class="container"><div class="row g-4">
+    <div class="col-lg-5"><h5 class="fw-bold">FinServe <span class="text-accent">AI Copilot</span></h5><p class="text-white-50">An enterprise AI platform for financial intelligence, compliance automation and document workflows &mdash; engineered by Jillani SofTech.</p></div>
+    <div class="col-lg-3"><h6>Jillani SofTech</h6><p class="text-white-50 mb-1">Muhammad Ghulam Jillani</p><p class="text-white-50">Founder, AI Engineer, Top Rated Plus Freelancer</p></div>
+    <div class="col-lg-4"><h6>Connect</h6><ul class="list-unstyled fs-footer-links">
+      <li><a href="https://www.jillanisoftech.com/" target="_blank">jillanisoftech.com</a></li>
+      <li><a href="https://mgjillanimughal.github.io/" target="_blank">Portfolio</a></li>
+      <li><a href="https://www.upwork.com/freelancers/~0146d8e0947a992eee" target="_blank">Upwork Profile</a></li>
+      <li><a href="mailto:m.g.jillani@jillanisoftech.com">m.g.jillani@jillanisoftech.com</a></li></ul></div>
+  </div><hr class="border-secondary my-4" /><p class="fs-copy">&copy; 2026 Jillani SofTech. All rights reserved.</p></div></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

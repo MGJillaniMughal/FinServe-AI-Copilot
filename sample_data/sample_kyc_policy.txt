@@ -1,0 +1,11 @@
+KNOW YOUR CUSTOMER (KYC) POLICY
+
+1. Identity Verification
+Customers must provide government-issued identification verified at onboarding.
+
+2. Customer Due Diligence
+Risk-based due diligence is performed. High-risk customers are re-verified annually.
+
+3. Data Protection (GDPR)
+Personal data is processed lawfully. Data subjects may request access and erasure.
+Consent is recorded and data-retention schedules are documented.

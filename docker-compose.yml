@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  finserve-api:
+    build: { context: ., dockerfile: Dockerfile }
+    container_name: finserve-ai-copilot
+    ports: ["8000:8000"]
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - MODEL_NAME=${MODEL_NAME:-gpt-4o-mini}
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production}
+      - HOST=0.0.0.0
+      - PORT=8000
+    restart: unless-stopped

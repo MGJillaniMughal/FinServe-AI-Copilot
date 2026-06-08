@@ -1,0 +1,16 @@
+ANTI-MONEY LAUNDERING (AML) POLICY
+
+1. Purpose
+This Anti-Money Laundering policy establishes controls to detect and prevent money
+laundering and terrorist financing in line with FATF recommendations.
+
+2. Customer Due Diligence (KYC)
+All customers undergo Know Your Customer identity verification at onboarding.
+Enhanced due diligence applies to politically exposed persons and high-risk customers.
+
+3. Transaction Monitoring
+Suspicious activity is monitored continuously. Thresholds trigger alerts and review.
+Confirmed suspicious activity results in a Suspicious Activity Report (SAR) filing.
+
+4. Record Keeping
+Records are retained for the period required by applicable regulation.

@@ -1,0 +1,14 @@
+QUARTERLY PORTFOLIO RISK REPORT
+
+Summary
+The portfolio shows elevated concentration risk and rising volatility this quarter.
+Counterparty exposure increased due to higher leverage in the credit book.
+Liquidity remains adequate, but covenant headroom is tight and a downgrade is possible.
+
+Key Risks
+- Concentration in a single sector increases default probability.
+- Market volatility raises potential mark-to-market loss.
+- Leverage amplifies downside exposure.
+
+Recommendation
+Increase diversification, set position limits, and run quarterly stress tests.
